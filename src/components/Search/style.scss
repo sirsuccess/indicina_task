@@ -1,0 +1,28 @@
+.search {
+  width: 380px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 100px;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .5rem;
+    img{
+        width: 20px;
+        height: 20px;
+        margin-right: .5rem;
+        cursor: pointer;
+    }
+    input{
+        width: 80%;
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 1.2rem;
+        padding: 0 1rem;
+        border-radius: 100px;
+    }
+}

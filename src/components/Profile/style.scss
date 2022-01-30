@@ -1,0 +1,30 @@
+.profile {
+  position: relative;
+  min-width: 200px;
+  .profile-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .dropdown-img {
+    cursor: pointer;
+  }
+  .dropdown {
+    position: absolute;
+    bottom: -60px;
+    width: 200px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid rgba(196, 203, 214, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.2);
+    border-radius: 3px;
+    color: #ff1733;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .dropdown-none {
+    display: none;
+  }
+}
